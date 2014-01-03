@@ -1,44 +1,48 @@
 .body {
   width: 250px;
   height: 450px;
+  background:url(data:image/gif;base64,R0lGODlhFAAUAIAAAMDAwP///yH5BAEAAAEALAAAAAAUABQAAAImhI+pwe3vAJxQ0hssnnq/7jVgmJGfGaGiyoyh68GbjNGXTeEcGxQAOw==);
   background: blue;
 }
-/*Left side*/
-.window0 {
+
+.size {
   position: relative;
   width: 60px;
   height: 80px;
+}
+
+.filled {
   background: white;
   color: white;
+}
+
+.windows {
+  position: relative;
+  width: 67px;
+  height: 80px;
+}
+
+.border {
+  border: solid;
+  color: white;
+}
+
+/*Left side*/
+.window0 {
   top: 30px;
-  left: 23px;
+  left: 20px;
 }
 
 .notice {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  background: white;
-  color: white;
   top: 50px;
   left: 23px;
 }
 
 .square0 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  border: solid;
-  color: white;
   top: 70px;
   left: 20px;
 }
 .square1 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  border: solid;
-  color: white;
   top: 90px;
   left: 20px;
 }
@@ -46,41 +50,49 @@
 /*Right side*/
 
 .window1 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  background: white;
-  color: white;
   top: -302px;
-  left: 170px;
+  left: 165px;
 }
 
 .square2 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  border: solid;
-  color: white;
   top: -282px;
   left: 165px;
 }
 
 .square3 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  border: solid;
-  color: white;
   top: -268px;
   left: 165px;
 }
 
 .square4 {
-  position: relative;
-  width: 60px;
-  height: 80px;
-  border: solid;
-  color: white;
   top: -248px;
   left: 165px;
+}
+
+/*Window Lines*/
+
+.vertical0 {
+  position:relative;
+  width: 5px;
+  height: 80px;
+  background: blue;
+  left: 20px;
+}
+
+.vertical1 {
+  position:absolute;
+  width: 5px;
+  height: 80px;
+  background: blue;
+  top: 0;
+  left: 43px;
+}
+
+.horizontal {
+  position:absolute;
+  width: 67px;
+  height: 5px;
+  background: blue;
+  top: 40px;
+  left: 0;
 }
