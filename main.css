@@ -1,6 +1,86 @@
 .body {
-  width: 300px;
-  height: 500px;
+  width: 250px;
+  height: 450px;
   background: blue;
 }
+/*Left side*/
+.window0 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  background: white;
+  color: white;
+  top: 30px;
+  left: 23px;
+}
 
+.notice {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  background: white;
+  color: white;
+  top: 50px;
+  left: 23px;
+}
+
+.square0 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  border: solid;
+  color: white;
+  top: 70px;
+  left: 20px;
+}
+.square1 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  border: solid;
+  color: white;
+  top: 90px;
+  left: 20px;
+}
+
+/*Right side*/
+
+.window1 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  background: white;
+  color: white;
+  top: -302px;
+  left: 170px;
+}
+
+.square2 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  border: solid;
+  color: white;
+  top: -282px;
+  left: 165px;
+}
+
+.square3 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  border: solid;
+  color: white;
+  top: -268px;
+  left: 165px;
+}
+
+.square4 {
+  position: relative;
+  width: 60px;
+  height: 80px;
+  border: solid;
+  color: white;
+  top: -248px;
+  left: 165px;
+}
