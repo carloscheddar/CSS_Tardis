@@ -1,3 +1,8 @@
+.tardis{
+  position: relative;
+  left: 100px;
+}
+
 .doors {
   position: relative;
   width: 250px;
