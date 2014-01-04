@@ -9,7 +9,7 @@
 
 .size {
   position: relative;
-  width: 60px;
+  width: 75px;
   height: 80px;
 }
 
@@ -20,7 +20,7 @@
 
 .windows {
   position: relative;
-  width: 67px;
+  width: 81px;
   height: 80px;
 }
 
@@ -74,22 +74,22 @@
 
 .window1 {
   top: -322px;
-  left: 165px;
+  left: 153px;
 }
 
 .square2 {
   top: -302px;
-  left: 165px;
+  left: 153px;
 }
 
 .square3 {
   top: -288px;
-  left: 165px;
+  left: 153px;
 }
 
 .square4 {
   top: -268px;
-  left: 165px;
+  left: 153px;
 }
 
 /*Window Lines*/
@@ -99,7 +99,7 @@
   width: 5px;
   height: 80px;
   background: rgb(15,46,127);
-  left: 20px;
+  left: 25px;
 }
 
 .vertical1 {
@@ -108,12 +108,12 @@
   height: 80px;
   background: rgb(15,46,127);
   top: 0;
-  left: 43px;
+  left: 52px;
 }
 
 .horizontal {
   position:absolute;
-  width: 67px;
+  width: 81px;
   height: 5px;
   background: rgb(15,46,127);
   top: 40px;
