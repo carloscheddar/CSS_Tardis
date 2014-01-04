@@ -1,8 +1,10 @@
-.body {
+.doors {
+  position: relative;
   width: 250px;
-  height: 450px;
+  height: 420px;
   background:url(data:image/gif;base64,R0lGODlhFAAUAIAAAMDAwP///yH5BAEAAAEALAAAAAAUABQAAAImhI+pwe3vAJxQ0hssnnq/7jVgmJGfGaGiyoyh68GbjNGXTeEcGxQAOw==);
-  background: blue;
+  background: rgb(15,46,127);
+  left: 30px;
 }
 
 .size {
@@ -27,55 +29,76 @@
   color: white;
 }
 
+/*Police Message*/
+
+.police {
+  position: relative;
+  background: rgb(15,46,127);
+  height:30px;
+  width: 270px;
+  top: 0;
+  left: 20px;
+}
+
+.polBorder {
+  position: relative;
+  height: 15px;
+  width: 230px;
+  color: white;
+  border:  solid;
+  top: 5px;
+  left: 18px;
+}
+
 /*Left side*/
 .window0 {
-  top: 30px;
+  top: 10px;
   left: 20px;
 }
 
 .notice {
-  top: 50px;
+  top: 30px;
   left: 23px;
 }
 
 .square0 {
-  top: 70px;
+  top: 50px;
   left: 20px;
 }
 .square1 {
-  top: 90px;
+  top: 70px;
   left: 20px;
 }
 
 /*Right side*/
 
 .window1 {
-  top: -302px;
+  top: -322px;
   left: 165px;
 }
 
 .square2 {
-  top: -282px;
+  top: -302px;
   left: 165px;
 }
 
 .square3 {
-  top: -268px;
+  top: -288px;
   left: 165px;
 }
 
 .square4 {
-  top: -248px;
+  top: -268px;
   left: 165px;
 }
 
 /*Window Lines*/
 
 .vertical0 {
-  position:relative;
+  position:absolute;
   width: 5px;
   height: 80px;
-  background: blue;
+  background: rgb(15,46,127);
   left: 20px;
 }
 
@@ -83,7 +106,7 @@
   position:absolute;
   width: 5px;
   height: 80px;
-  background: blue;
+  background: rgb(15,46,127);
   top: 0;
   left: 43px;
 }
@@ -92,7 +115,7 @@
   position:absolute;
   width: 67px;
   height: 5px;
-  background: blue;
+  background: rgb(15,46,127);
   top: 40px;
   left: 0;
 }
@@ -103,6 +126,6 @@
   background: white;
   width: 6px;
   height: 392px;
-  top: 38px;
-  left: 130px;
+  top: 10px;
+  left: 125px;
 }
