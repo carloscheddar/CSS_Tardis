@@ -29,24 +29,55 @@
   color: white;
 }
 
+/*Light enclousure*/
+.TriMini{
+  position: relative;
+  left: 143px;
+  width: 0;
+  height: 10px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 6px solid rgb(15,46,127);
+}
+
+/*Light enclousure*/
+.light{
+  position: relative;
+  background: rgb(15,46,127);
+  height:25px;
+  width: 24px;
+  top: 0;
+  left: 143px;
+}
+
+/*Lightbulb*/
+.bulb{
+  position: absolute;
+  background: white;
+  height:25px;
+  width: 14px;
+  top: 0;
+  left: 5px;
+}
+
 /*Little bar at the top*/
 .TopMini{
   position: relative;
   background: rgb(15,46,127);
   height:5px;
-  width: 20px;
+  width: 30px;
   top: 0;
-  left: 145px;
+  left: 140px;
 }
 
 /*Triangles for the top*/
 .triangle{
   position: relative;
   left: 40px;
-  width: 20px;
+  width: 30px;
   height: 0;
-  border-left: 105px solid transparent;
-  border-right: 105px solid transparent;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
   border-bottom: 20px solid rgb(15,46,127);
 }
 
