@@ -96,3 +96,13 @@
   top: 40px;
   left: 0;
 }
+
+/*Middle Line*/
+.middle {
+  position: absolute;
+  background: white;
+  width: 6px;
+  height: 392px;
+  top: 38px;
+  left: 130px;
+}
