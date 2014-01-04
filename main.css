@@ -119,7 +119,7 @@
   color: white;
   border: solid;
   top: 5px;
-  left: 18px;
+  left: 17px;
 }
 
 /*Left side*/
@@ -200,4 +200,24 @@
   height: 392px;
   top: 10px;
   left: 125px;
+}
+
+/*Footer for the tardis*/
+.triFoot{
+  position: relative;
+  left: 20px;
+  width: 250px;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 5px solid rgb(15,46,127);
+}
+
+.foot{
+  position: relative;
+  background: rgb(15,46,127);
+  height:12px;
+  width: 270px;
+  top: 0;
+  left: 20px;
 }
