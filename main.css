@@ -2,21 +2,20 @@
   animation: flash 10s infinite;
   -webkit-animation: flash 10s infinite;
   -moz-animation: flash 10s infinite;
-  position: relative;
-  left: 300px;
-  z-index: 1;
+  position: absolute;
 }
 
 .doors {
-  position: relative;
+  position: absolute;
   width: 250px;
   height: 420px;
   background: rgb(15,46,127);
   left: 30px;
+  top: 126px;
 }
 
 .size {
-  position: relative;
+  position: absolute;
   width: 75px;
   height: 80px;
 }
@@ -27,7 +26,7 @@
 }
 
 .windows {
-  position: relative;
+  position: absolute;
   width: 81px;
   height: 80px;
 }
@@ -39,10 +38,10 @@
 
 /*Light enclousure*/
 .TriMini{
-  position: relative;
+  position: absolute;
+  top: 10px;
   left: 143px;
   width: 0;
-  height: 10px;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 6px solid rgb(15,46,127);
@@ -57,7 +56,7 @@
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
   height: 150px;
   width: 150px;
-  position: relative;
+  position: absolute;
   left: -63px;
   top: -60px;
   z-index: 1
@@ -86,11 +85,11 @@
 
 /*Light enclousure*/
 .light{
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:25px;
   width: 24px;
-  top: 0;
+  top: 16px;
   left: 143px;
 }
 
@@ -107,20 +106,20 @@
 
 /*Little bar at the top*/
 .TopMini{
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:5px;
   width: 30px;
-  top: 0;
+  top: 41px;
   left: 140px;
 }
 
 /*Triangles for the top*/
 .triangle{
-  position: relative;
+  position: absolute;
+  top: 46px;
   left: 40px;
   width: 30px;
-  height: 0;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 20px solid rgb(15,46,127);
@@ -128,37 +127,37 @@
 
 /*Top Rectanfg;e*/
 .TopRec {
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:15px;
   width: 230px;
-  top: 0;
+  top: 66px;
   left: 40px;
 }
 
 /*Center Rectangle*/
 .CenterRec {
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:15px;
   width: 250px;
-  top: 0;
+  top: 81px;
   left: 30px;
 }
 
 /*Police Message*/
 
 .police {
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:30px;
   width: 270px;
-  top: 0;
+  top: 96px;
   left: 20px;
 }
 
 .polBorder {
-  position: relative;
+  position: absolute;
   height: 15px;
   width: 230px;
   color: white;
@@ -174,38 +173,38 @@
 }
 
 .notice {
-  top: 30px;
+  top: 110px;
   left: 23px;
 }
 
 .square0 {
-  top: 50px;
+  top: 212px;
   left: 20px;
 }
 .square1 {
-  top: 70px;
+  top: 317px;
   left: 20px;
 }
 
 /*Right side*/
 
 .window1 {
-  top: -322px;
+  top: 10px;
   left: 153px;
 }
 
 .square2 {
-  top: -302px;
+  top: 110px;
   left: 153px;
 }
 
 .square3 {
-  top: -288px;
+  top: 212px;
   left: 153px;
 }
 
 .square4 {
-  top: -268px;
+  top: 317px;
   left: 153px;
 }
 
@@ -249,7 +248,8 @@
 
 /*Footer for the tardis*/
 .triFoot{
-  position: relative;
+  position: absolute;
+  top: 546px;
   left: 20px;
   width: 250px;
   height: 0;
@@ -259,10 +259,10 @@
 }
 
 .foot{
-  position: relative;
+  position: absolute;
   background: rgb(15,46,127);
   height:12px;
   width: 270px;
-  top: 0;
+  top: 551px;
   left: 20px;
 }
