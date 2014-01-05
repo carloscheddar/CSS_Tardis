@@ -1,4 +1,7 @@
 .tardis{
+  animation: flash 10s infinite;
+  -webkit-animation: flash 10s infinite;
+  -moz-animation: flash 10s infinite;
   position: relative;
   left: 300px;
   z-index: 1;
@@ -46,9 +49,9 @@
 }
 
 .bulbEffect{
-  animation: flash 5s infinite;
-  -webkit-animation: flash 5s infinite;
-  -moz-animation: flash 5s infinite;
+  animation: flash 2s infinite;
+  -webkit-animation: flash 2s infinite;
+  -moz-animation: flash 2s infinite;
   background: radial-gradient(circle, white 5%, transparent 40%);
   background: -moz-radial-gradient(circle, white 5%, transparent 40%);
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
@@ -68,6 +71,13 @@
 }
 
 @-webkit-keyframes flash {
+  0% {opacity:0;}
+  25% {opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-moz-keyframes flash {
   0% {opacity:0;}
   25% {opacity:1;}
   50% {opacity:1;}
