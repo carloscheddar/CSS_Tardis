@@ -1,13 +1,13 @@
 .tardis{
   position: relative;
-  left: 100px;
+  left: 300px;
+  z-index: 1;
 }
 
 .doors {
   position: relative;
   width: 250px;
   height: 420px;
-  background:url(data:image/gif;base64,R0lGODlhFAAUAIAAAMDAwP///yH5BAEAAAEALAAAAAAUABQAAAImhI+pwe3vAJxQ0hssnnq/7jVgmJGfGaGiyoyh68GbjNGXTeEcGxQAOw==);
   background: rgb(15,46,127);
   left: 30px;
 }
@@ -45,6 +45,18 @@
   border-bottom: 6px solid rgb(15,46,127);
 }
 
+.bulbEffect{
+  background: radial-gradient(circle, white 15%, transparent 40%);
+  background: -moz-radial-gradient(circle, white 15%, transparent 40%);
+  background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: -63px;
+  top: -60px;
+  z-index: 1
+}
+
 /*Light enclousure*/
 .light{
   position: relative;
@@ -63,6 +75,7 @@
   width: 14px;
   top: 0;
   left: 5px;
+  z-index: 2;
 }
 
 /*Little bar at the top*/
