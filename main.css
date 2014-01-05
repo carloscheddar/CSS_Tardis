@@ -3,6 +3,7 @@
   -webkit-animation: flash 10s infinite;
   -moz-animation: flash 10s infinite;
   position: absolute;
+  z-index: 1;
 }
 
 .doors {
