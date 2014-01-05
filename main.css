@@ -46,8 +46,11 @@
 }
 
 .bulbEffect{
-  background: radial-gradient(circle, white 15%, transparent 40%);
-  background: -moz-radial-gradient(circle, white 15%, transparent 40%);
+  animation: flash 5s infinite;
+  -webkit-animation: flash 5s infinite;
+  -moz-animation: flash 5s infinite;
+  background: radial-gradient(circle, white 5%, transparent 40%);
+  background: -moz-radial-gradient(circle, white 5%, transparent 40%);
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
   height: 150px;
   width: 150px;
@@ -55,6 +58,20 @@
   left: -63px;
   top: -60px;
   z-index: 1
+}
+
+@keyframes flash {
+  0% {opacity:0;}
+  25% {opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes flash {
+  0% {opacity:0;}
+  25% {opacity:1;}
+  50% {opacity:1;}
+  100% {opacity:0;}
 }
 
 /*Light enclousure*/
