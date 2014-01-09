@@ -3,16 +3,13 @@
   overflow: hidden;
   height: 580px;
   width: 310px;
-
-  height: 100%;
-  width: 100%;
-  border: solid red;
+  left: 400px;
 }
 
 .tardis{
-/*  animation: flash 10s infinite;
+  animation: flash 10s infinite;
   -webkit-animation: flash 10s infinite;
-  -moz-animation: flash 10s infinite;*/
+  -moz-animation: flash 10s infinite;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -62,9 +59,9 @@
 }
 
 .bulbEffect{
-/*  animation: flash 2s infinite;
+  animation: flash 2s infinite;
   -webkit-animation: flash 2s infinite;
-  -moz-animation: flash 2s infinite;*/
+  -moz-animation: flash 2s infinite;
   background: radial-gradient(circle, white 5%, transparent 40%);
   background: -moz-radial-gradient(circle, white 5%, transparent 40%);
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
@@ -73,7 +70,7 @@
   position: absolute;
   left: -350%;
   top: -350%;
-  z-index: 1
+  z-index: 4
 }
 
 @keyframes flash {
@@ -114,7 +111,6 @@
   height:100%;
   width: 65%;
   left: 18%;
-  z-index: 2;
 }
 
 /*Little bar at the top*/
@@ -259,7 +255,7 @@
 /*Footer for the tardis*/
 .TriFoot{
   position: relative;
-  top: 1.8%;
+  top: 1.7%;
   left: 20px;
   left: 6.5%;
   width: 80.5%;
@@ -273,6 +269,6 @@
   background: rgb(15,46,127);
   height: 2%;
   width: 87.5%;
-  top: 1.8%;
+  top: 1.7%;
   left: 6.3%;
 }
