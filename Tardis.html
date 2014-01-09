@@ -57,12 +57,51 @@
     <!-- End of the doors for the Tardis -->
 
     <!-- Start Lower part of the tardis -->
-    <div class="triFoot"></div>
+    <div class="TriFoot"></div>
     <div class="foot"></div>
-    <!-- End Lower part of the tardis -->
-  </div>
+    <!-- End Lower part of the tardis --> </div>
   <!-- End of Tardis -->
 </div>
 
-<script></script>
+<script>
+
+  var setTriangle = function() {
+    // Dynamically calculate the value of triangle
+    var TopMini= $(".TopMini").width();
+    var TopRec=  $(".TopRec").width();
+    var half = (TopRec - TopMini)/ 2
+    $(".triangle").css("width", TopMini + "px");
+    $(".triangle").css("border-left", half + "px solid transparent");
+    $(".triangle").css("border-right", half + "px solid transparent");
+    $(".triangle").css("border-bottom", half/5 + "px solid rgb(15,46,127)");
+  }
+
+  var setTriMini = function() {
+    var light= $(".light").width();
+    $(".TriMini").css("border-left", light/2 + "px solid transparent");
+    $(".TriMini").css("border-right", light/2 + "px solid transparent");
+    $(".TriMini").css("border-bottom", light/4 + "px solid rgb(15,46,127)");
+  }
+
+  var setTriFoot = function() {
+    var doors= $(".doors").width();
+    var foot=  $(".foot").width();
+    var half = (foot - doors)/ 2
+    $(".TriFoot").css("width", doors + "px");
+    $(".TriFoot").css("border-left", half + "px solid transparent");
+    $(".TriFoot").css("border-right", half + "px solid transparent");
+    $(".TriFoot").css("border-bottom", half/2 + "px solid rgb(15,46,127)");
+  }
+  setTriangle();
+  setTriMini();
+  setTriFoot();
+
+  $(window).resize(function() {
+    setTriangle();
+    setTriMini();
+    setTriFoot();
+  });
+
+
+</script>
 </body>

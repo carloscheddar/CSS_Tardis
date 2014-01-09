@@ -4,8 +4,8 @@
   height: 580px;
   width: 310px;
 
-/*  height: 100%;
-  width: 100%;*/
+  height: 100%;
+  width: 100%;
   border: solid red;
 }
 
@@ -131,11 +131,12 @@
   position: absolute;
   top: 7.92%;
   left: 12.9%;
-  width: 10%;
+  width: 1px;
   border-left: 100px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 20px solid rgb(15,46,127);
 }
+
 
 /*Top Rectanfg;e*/
 .TopRec {
@@ -256,8 +257,8 @@
 }
 
 /*Footer for the tardis*/
-.triFoot{
-  position: absolute;
+.TriFoot{
+  position: relative;
   top: 94.9%;
   left: 20px;
   left: 6.5%;
