@@ -20,12 +20,12 @@
 }
 
 .doors {
-  position: absolute;
+  position: relative;
   width: 80.5%;
   height: 73%;
   background: rgb(15,46,127);
   left: 9.7%;
-  top: 21.8%;
+  top: 1.7%;
 }
 
 .size {
@@ -52,8 +52,9 @@
 
 /*Light enclousure*/
 .TriMini{
-  position: absolute;
+  position: relative;
   top: 1.7%;
+  width: 0;
   left: 46.5%;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
@@ -98,11 +99,11 @@
 
 /*Light enclousure*/
 .light{
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height:4.3%;
   width: 7.8%;
-  top: 2.7%;
+  top: 1.7%;
   left: 46.5%;
 }
 
@@ -118,18 +119,18 @@
 
 /*Little bar at the top*/
 .TopMini{
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height:1%;
   width: 9.8%;
-  top: 7%;
+  top: 1.7%;
   left: 45.5%;
 }
 
 /*Triangles for the top*/
 .triangle{
-  position: absolute;
-  top: 7.92%;
+  position: relative;
+  top: 1.71%;
   left: 12.9%;
   width: 1px;
   border-left: 100px solid transparent;
@@ -137,35 +138,34 @@
   border-bottom: 20px solid rgb(15,46,127);
 }
 
-
 /*Top Rectanfg;e*/
 .TopRec {
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height:2.8%;
   width: 74.5%;
-  top: 11.3%;
+  top: 1.71%;
   left: 13%;
 }
 
 /*Center Rectangle*/
 .CenterRec {
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height: 2.5%;
   width: 80.8%;
-  top: 14%;
+  top: 1.7%;
   left: 9.6%;
 }
 
 /*Police Message*/
 
 .police {
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height:5.3%;
   width: 87%;
-  top: 16.5%;
+  top: 1.7%;
   left: 6.5%;
 }
 
@@ -259,7 +259,7 @@
 /*Footer for the tardis*/
 .TriFoot{
   position: relative;
-  top: 94.9%;
+  top: 1.8%;
   left: 20px;
   left: 6.5%;
   width: 80.5%;
@@ -269,11 +269,10 @@
 }
 
 .foot{
-  position: absolute;
+  position: relative;
   background: rgb(15,46,127);
   height: 2%;
   width: 87.5%;
-  /*top: 560px;*/
-  top: 95.7%;
+  top: 1.8%;
   left: 6.3%;
 }

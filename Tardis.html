@@ -81,6 +81,7 @@
     $(".TriMini").css("border-left", light/2 + "px solid transparent");
     $(".TriMini").css("border-right", light/2 + "px solid transparent");
     $(".TriMini").css("border-bottom", light/4 + "px solid rgb(15,46,127)");
+    console.log(light);
   }
 
   var setTriFoot = function() {
@@ -97,8 +98,8 @@
   setTriFoot();
 
   $(window).resize(function() {
-    setTriangle();
     setTriMini();
+    setTriangle();
     setTriFoot();
   });
 
