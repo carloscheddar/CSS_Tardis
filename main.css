@@ -65,11 +65,11 @@
   background: radial-gradient(circle, white 5%, transparent 40%);
   background: -moz-radial-gradient(circle, white 5%, transparent 40%);
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
-  height: 800%;
+  height: 1100%;
   width: 800%;
   position: absolute;
   left: -350%;
-  top: -350%;
+  top: -500%;
   z-index: 4
 }
 
