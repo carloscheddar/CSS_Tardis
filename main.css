@@ -65,11 +65,11 @@
   background: radial-gradient(circle, white 5%, transparent 40%);
   background: -moz-radial-gradient(circle, white 5%, transparent 40%);
   background: -webkit-radial-gradient(circle, white 5%, transparent 40%);
-  height: 1100%;
+  height: 800%;
   width: 800%;
   position: absolute;
   left: -350%;
-  top: -500%;
+  top: -350%;
   z-index: 4
 }
 
@@ -142,7 +142,6 @@
   width: 74.5%;
   top: 1.71%;
   left: 13%;
-  z-index: 1;
 }
 
 /*Center Rectangle*/
