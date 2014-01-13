@@ -4,12 +4,14 @@
   height: 580px;
   width: 310px;
   left: 400px;
+  height: 300px;
+  width:  155px;
 }
 
 .tardis{
-  animation: flash 10s infinite;
+/*  animation: flash 10s infinite;
   -webkit-animation: flash 10s infinite;
-  -moz-animation: flash 10s infinite;
+  -moz-animation: flash 10s infinite;*/
   height: 100%;
   width: 100%;
   position: absolute;
@@ -272,3 +274,8 @@
   top: 1.7%;
   left: 6.3%;
 }
+
+
+.tardis[min-width= "175px"] > .border {
+    border: 1px solid;
+  }
