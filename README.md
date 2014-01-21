@@ -18,9 +18,9 @@ You can delete jQuery if it was loaded in another html.
 ```html
 <head>
   <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/tardis.css">
+  <link rel="stylesheet" type="text/css" href="http://carloscheddar.github.io/CSS_Tardis/stylesheets/tardis.css">
   <!-- Load tardis.js to be able to resize the triangles -->
-  <script src="js/tardis.js"></script>
+  <script src="http://carloscheddar.github.io/CSS_Tardis/js/tardis.js"></script>
 </head>
 
 <div class="tardisContainer">
@@ -79,7 +79,7 @@ You can delete jQuery if it was loaded in another html.
 </div>
 
 <!-- Using ElementQuery -->
-<script src="js/elementQuery.min.js"></script>
+<script src="http://carloscheddar.github.io/CSS_Tardis/js/elementQuery.min.js"></script>
 ```
 Change the **.tardisContainer** class inside **tardis.css** to position the TARDIS on your web page as well as change the size.
 ```css
