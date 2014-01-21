@@ -1,3 +1,9 @@
+/* ==============================================================================================
+CSS_TARDIS
+Author: Carlos Feliciano
+GitHub: https://github.com/carloscheddar/CSS_Tardis/
+Description: Use this script to make the CSS TARDIS triangles responsive.
+================================================================================================= */
 $(document).ready(function() {
 
   //Function that creates a triangle relative to .light size
