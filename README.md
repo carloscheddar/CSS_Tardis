@@ -12,8 +12,9 @@ The dream of every doctor who fan, a simple animated TARDIS that you can add to 
 > DEMO(TARDIS Only): http://carloscheddar.github.io/CSS_Tardis/Tardis.html
 
 ###Usage
-Clone the repo and add this to your html header:   
+Simply copy this block and paste it to your html.  
 You can delete jQuery if it was loaded in another html.  
+If you want to edit then clone the repo or edit the style in the html.
 
 ```html
 <head>
