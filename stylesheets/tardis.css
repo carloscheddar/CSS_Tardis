@@ -1,3 +1,9 @@
+/* ==============================================================================================
+CSS_TARDIS
+Author: Carlos Feliciano
+GitHub: https://github.com/carloscheddar/CSS_Tardis/
+Description: A simple CSS TARDIS to be displayed on your website
+================================================================================================= */
 .tardisContainer{
   position: absolute;
   overflow: hidden;
