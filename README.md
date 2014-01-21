@@ -13,8 +13,8 @@ The dream of every doctor who fan, a simple animated TARDIS that you can add to 
 
 ###Usage
 Simply copy this block and paste it to your html.  
-You can delete jQuery if it was loaded in another html.  
-If you want to edit then clone the repo or edit the style in the html.
+- You can delete jQuery if it was loaded in another html.  
+- To edit clone the repo or add inline CSS.
 
 ```html
 <head>
