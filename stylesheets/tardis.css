@@ -1,11 +1,8 @@
-.container{
+.tardisContainer{
   position: absolute;
   overflow: hidden;
   height: 580px;
   width: 310px;
-/*  left: 400px;
-  height: 100%;
-  width: 100%;*/
 }
 
 .tardis{
@@ -277,10 +274,10 @@
 
 /* Elerment Queries thanks to https://github.com/tysonmatanich/elementQuery */
 
-.container[max-width~="300px"] .border {
+.tardisContainer[max-width~="300px"] .border {
   border: 1px solid white;
 }
 
-.container[max-width~="300px"] .polBorder {
+.tardisContainer[max-width~="300px"] .polBorder {
   border: 1px solid white;
 }
